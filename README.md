@@ -1,2 +1,4 @@
-# csd-340
-Assignments for my Web Development with HTML and CSS class
+#CSD 340 Web Development with HTML and CSS
+##Contributors
+*Harrison Birkner
+*Matt Longley
