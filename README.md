@@ -1,4 +1,4 @@
 # CSD 340 Web Development with HTML and CSS
-##C ontributors
+## Contributors
 * Harrison Birkner
 * Matt Longley
