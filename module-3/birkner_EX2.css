@@ -1,0 +1,66 @@
+/* Harrison Birkner, 3/29/2022, Module 3 Assignment
+
+This css formats birkner_EX2.html. It displays skills in the use of font-family and other font related properties. Hover and visited states of
+links is also shown off. */
+
+html, body {
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.052em;
+    word-spacing: .5em;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    text-align: left;
+    padding-top: 15px;
+}
+
+p {
+    font-family: Quattrocento, Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+address {
+    font-family: Quattrocento, Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+}
+
+/* The instructions said to apply rules to the website link, not the generic anchor tag, so I created a new class*/
+.bellevue-link {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+.bellevue-link:hover {
+    text-decoration: underline;
+    background-color: #d6a800;
+}
+
+.bellevue-link:visited {
+    text-decoration: underline;
+    color: black;
+}
