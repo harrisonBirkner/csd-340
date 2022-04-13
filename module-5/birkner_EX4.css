@@ -1,0 +1,48 @@
+/* Harrison Birkner, 4/12/2022, Module 5.2 Assignment
+
+This css formats an html file using display: grid and rgba
+*/
+
+body {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 400;
+    background-color: rgba(247, 112, 24, .2);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1, h3, figcaption {
+    color: rgba(185, 63, 8, 1);
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+#image-gallery {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
